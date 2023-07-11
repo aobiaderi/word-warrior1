@@ -6,7 +6,7 @@ body {
 
 #door {
 	
-    background-image: url(./assets/images/door.jpg);
+    background-image: url('/assets/images/door.jpg');
     background-size: cover;
     background-position: center;
     margin-top: 100px;
