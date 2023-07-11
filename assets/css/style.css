@@ -2,6 +2,8 @@ body {
 	font-family: 'Fredoka One', cursive;
 	background-color: black;
 	color: white; /* set the text color to white */
+    height: 100vh; /* set the height to full viewport height */
+    overflow-y: hidden; /* hide vertical overflow */
 }
 
 #door {
