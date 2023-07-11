@@ -1,6 +1,6 @@
 body {
 	font-family: 'Fredoka One', cursive;
-	background-color: blueviolet;
+	background-color: #1c1c1c;
 	color: white; /* set the text color to white */
 }
 
@@ -9,12 +9,16 @@ body {
     background-image: url('../images/door.jpg');
     background-size: cover;
     background-position: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 700px;
 	cursor: pointer;
 	width: 250px;
-	height: 500px;
+	height: 550px;	
+}
 
-
-	
+#welcome-note {
+	margin-top: 50px; /* add margin to position the div */
+	text-align: center; /* center the text */
+	font-family: 'Fredoka One', cursive;
+	font-size: 22px;
 }
