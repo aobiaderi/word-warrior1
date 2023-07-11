@@ -15,8 +15,36 @@ body {
     margin-left: 700px;
 	cursor: pointer;
 	width: 250px;
-	height: 550px;	
+	height: 550px;
+    transform-origin: 0% 0%;
+    transform: perspective(300px) rotate(0deg);
+    animation:open 10s linear infinite ;
+    transition: transform 0.5s;/* add transition property for smooth animation */
+
 }
+
+
+
+
+@keyframes open {
+	0% {
+		transform: perspective(800px) rotateY(80deg);
+	}
+    25% {
+		transform: perspective(800px) rotateY(0deg);
+	}
+
+    50% {
+		transform: perspective(800px) rotateY(20deg);
+	}
+	75% {
+		transform: perspective(800px) rotateY(80deg);
+	}
+	100% {
+		transform: perspective(800px) rotateY(80deg);
+	}
+}
+
 
 #welcome-note {
 	margin-top: 50px; /* add margin to position the div */
@@ -24,3 +52,4 @@ body {
 	font-family: 'Fredoka One', cursive;
 	font-size: 22px;
 }
+
